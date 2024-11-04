@@ -1,0 +1,49 @@
+/* reset das configurações */
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin-bottom: 100px;
+    background-color: #dee5ef;
+}
+/* Retirar o sublinhado dos links */
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    background-color: #8cb9f8;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+header{
+    background: #4169e1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    /* Alinha no centro vertical */
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.lista{
+    display: flex;
+}
+.lista li{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+}
